@@ -160,6 +160,7 @@ MonoBehaviour:
     Amplitude: 4
     Frequency: 4
     Time: 4
+    BallTransform: {fileID: 408449522}
 --- !u!114 &408449518
 MonoBehaviour:
   m_ObjectHideFlags: 0
