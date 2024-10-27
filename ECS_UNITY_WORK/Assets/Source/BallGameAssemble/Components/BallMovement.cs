@@ -11,6 +11,8 @@ namespace BallGameAssemble.Components
         public float Speed;    
         public float Amplitude;
         public float Frequency;
-        public float Time;     
+        public float Time;
+
+        public Transform BallTransform;
     }
 }
