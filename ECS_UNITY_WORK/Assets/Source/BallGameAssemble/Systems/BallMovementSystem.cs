@@ -1,4 +1,4 @@
-using BallGameAssemble.Components;
+﻿using BallGameAssemble.Components;
 using Leopotam.EcsLite;
 using System.Collections;
 using System.Collections.Generic;
@@ -28,10 +28,9 @@ namespace BallGameAssemble.Systems
 
                 float xOffset = Mathf.Sin(ballMovement.Time * ballMovement.Frequency) * ballMovement.Amplitude;
 
-                ballMovement.BallTransform.position = new Vector3(xOffset, ballMovement.BallTransform.position.y, ballMovement.BallTransform.position.z);
+                float zOffset = ballMovement.Speed * Time.deltaTime;
 
-                //this.transform.x = xOffset;
-                //ballTransform.Value.position = new Vector3(xOffset, ballTransform.Value.position.y, ballTransform.Value.position.z);
+                ballMovement.BallTransform.position += new Vector3(xOffset, 0, zOffset);
             }
         }
     }
