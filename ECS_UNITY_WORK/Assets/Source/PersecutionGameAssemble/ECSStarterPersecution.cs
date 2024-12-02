@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Leopotam.EcsLite;
 using Voody.UniLeo.Lite;
-using BallGameAssemble.Components;
-using BallGameAssemble.Systems;
+using PersecutionGameAssemble.Components;
 using PersecutionGameAssemble.Systems;
 
 namespace PersecutionGameAssemble

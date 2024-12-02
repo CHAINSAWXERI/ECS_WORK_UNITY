@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1777109449322173575}
   - component: {fileID: 1099656793668818202}
   - component: {fileID: 5042285670342728334}
-  - component: {fileID: 371977906280530709}
   - component: {fileID: 5996416560397155221}
+  - component: {fileID: 1575653363723504819}
   m_Layer: 0
   m_Name: Persecutor
   m_TagString: Untagged
@@ -107,20 +107,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &371977906280530709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7719413011233870496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffbee0bd737e4c54198710323726e62b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  convertMode: 1
-  customWorld: 
 --- !u!114 &5996416560397155221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,3 +127,17 @@ MonoBehaviour:
     OurTransform: {fileID: 3993201390369203472}
     target: {fileID: 0}
     speed: 4
+--- !u!114 &1575653363723504819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719413011233870496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236f59dc59fdd4c8a846a7fc5bb735ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  convertMode: 0
+  customWorld: 

@@ -24,14 +24,12 @@ public class ObjectSpawner : MonoBehaviour
     {
         while (spawnedPositions.Count < numberOfObjects)
         {
-            // Генерируем случайную позицию в заданной области
             Vector3 randomPosition = new Vector3(
                 Random.Range(-spawnAreaSize.x / 2, spawnAreaSize.x / 2),
-                0, // Высота (можно изменить)
+                0,
                 Random.Range(-spawnAreaSize.z / 2, spawnAreaSize.z / 2)
             );
 
-            // Проверяем, существует ли уже такая позиция
             if (!spawnedPositions.Contains(randomPosition))
             {
                 spawnedPositions.Add(randomPosition); // Добавляем позицию в множество

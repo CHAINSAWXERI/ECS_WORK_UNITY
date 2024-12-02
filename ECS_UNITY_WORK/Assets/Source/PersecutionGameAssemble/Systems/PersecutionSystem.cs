@@ -27,6 +27,7 @@ namespace PersecutionGameAssemble.Systems
                 //
                 if (persecutions.target != null)
                 {
+                    Debug.Log("000");
                     //persecutions.OurTransform = persecutions.transform;
                     Vector3 direction = persecutions.target.position - persecutions.OurTransform.position;
                     direction.Normalize();

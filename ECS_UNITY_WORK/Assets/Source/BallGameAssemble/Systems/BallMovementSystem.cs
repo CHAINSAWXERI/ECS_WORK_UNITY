@@ -22,7 +22,6 @@ namespace BallGameAssemble.Systems
         {
             foreach (var entity in BallFilter)
             {
-                Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
                 ref var ballMovement = ref BallMovements.Get(entity);
 
                 ballMovement.Time += Time.deltaTime;
